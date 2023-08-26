@@ -1,0 +1,43 @@
+body {
+    background: gray;
+}
+
+aside {
+    float: left;
+    background: black;
+    width: 20%;
+    padding: 0.5%;
+    height: 100vh;
+    color: #820585;
+    border-right: 2px solid gray;
+}
+
+aside li {
+  list-style-type: none;
+  transition: all .1s ease;
+  /* Убираем маркеры */
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #820585;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+.makima {
+    width: 75%;
+    height: 10%;
+}
+
+.pizdec {
+    width: 100%;
+    height: 30%;
+}
+
+.spisok {
+    color: #6E0270;
+}
+
+.spisok:hover {
+    color: black;
+}
